@@ -11,9 +11,7 @@ const outfit = localFont({
   variable: '--font-outfit'
 })
 
-type Props = {}
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div className='bg-recipe-page-stone-100 h-full w-[100vw] flex justify-center items-start sm:pt-[150px] sm:pb-[100px]'>
       <div className='bg-recipe-page-white-100 h-auto w-[735px] rounded-2xl'>

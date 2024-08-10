@@ -16,11 +16,6 @@ export default function Home() {
       url: 'recipe-page',
       level: 'newbie',
     },
-    {
-      name: 'Recipe Page2',
-      url: 'recipe-page2',
-      level: 'newbie',
-    }
   ]
 
   // Each group
@@ -82,7 +77,9 @@ export default function Home() {
               <p className="text-lg">Advance</p>
             </div>
             {advanceChallenges.map(({ name, url }: Challenge, idx) => (
-              <Link className="bg-orange-600 text-black" href={url}>{name}</Link>
+              <button className="bg-orange-600 text-black w-full" key={idx}>
+              <Link href={url}>{name}</Link>
+            </button>
             ))}
           </div>
         </div>
