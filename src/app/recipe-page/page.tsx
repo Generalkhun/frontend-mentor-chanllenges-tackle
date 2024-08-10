@@ -17,7 +17,7 @@ const page = () => {
       <div className='bg-recipe-page-white-100 h-auto w-[735px] rounded-2xl'>
         <div className='sm:pt-10 sm:px-10'>
           <div className='w-max-[658px] w-full sm:h-[324px] h-[170px] relative'>
-            <Image alt=';' src='/recipe-page/images/image-omelette.jpeg' objectFit='cover' fill className='sm:rounded-2xl rounded-none' />ƒ
+            <Image alt=';' src='/recipe-page/images/image-omelette.jpeg' objectFit='cover' fill className='sm:rounded-2xl rounded-none' />
           </div>
         </div>
 
