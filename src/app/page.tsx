@@ -16,6 +16,11 @@ export default function Home() {
       url: 'recipe-page',
       level: 'newbie',
     },
+    {
+      name: 'Interactive comments section',
+      url: 'interactive-comments-section',
+      level: 'intermediate',
+    },
   ]
 
   // Each group
